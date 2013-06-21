@@ -65,3 +65,11 @@ implémentés pour tous les types de données.
 
 Concernant la clause ORDER BY, l'ordre devra pouvoir être ASCendant ou DESCendant
 
+Persistance de la base de donnée.
+Votre MiniSQL est une base de donnée persistante. 
+Si aucun paramètre n'est fourni, les fichiers contenant les données seront créés dans le répertoire
+courant de l'application.
+L'option --dbpath devra permettre d'indiquer le répertoire ou sont stockés les fichiers de la base de
+donnée.
+Exemple : --dbpath=/var/www/monsite/db
+

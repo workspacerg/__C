@@ -9,8 +9,11 @@ Votre MiniSQL devra permettre d'exporter les schémas de table ainsi que les don
 SQL pour être facilement importable à partir d'un SGBD tel que MySQL.
 L'exportation devra être possible à partir d'une pseudo commande SQL :
 EXPORT SCHEMA(<tablename>,<tablename>...) INTO <filename>
+
 EXPORT SCHEMA(*) INTO <filename>
+
 EXPORT DATAS(<tablename>,<tablename>...) INTO <filename>
+
 EXPORT DATAS(*) INTO <filename>
 
 Implémentation du langage SQL
